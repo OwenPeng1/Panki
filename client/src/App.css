@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+body {
+  background-color: #1c2841;
+  color: #40E0D0;
+  text-align:center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+a { color: #FFA07A}
+
+.navButton{
+  font-size: 60px;
+  border-radius: 6px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navButton:hover{
+  background-color: #FFA07A;
+  color:#1c2841
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-size:50px
 }
 
-.App-link {
-  color: #61dafb;
+span{
+  font-size:30px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#createUser{
+  border: none;
+  background-color: #1c2841;
+  color:#FFA07A;
+  border-radius: 2px;
+  font-size:20px
+}
+
+#createUser:hover{
+  background-color: #FFA07A;
+  color:#1c2841
+}
+
+.cardButton{
+  font-size:30px;
+  border-radius: 5px;
+}
+
+.cardButton:hover{
+  background-color: #FFA07A;
+  color:#1c2841
+}
+
+.answerButton{
+  margin:10px;
+  border: none;
+  background-color: #1c2841;
+  color:#7FFF00;
+  font-size: 40px;
+  border-radius: 6px
+}
+
+.answerButton:hover{
+  background-color: #7FFF00;
+  color:#1c2841
+}
+
+#username{
+  margin:80px
+}
+
+#password{
+  margin:60px
+}
+
+#usernameInput{
+  margin:0px 57px;
+  font-size: 20px
+}
+
+#passwordInput{
+  margin:0x 60px;
+  font-size: 20px
+}
+
+#usernameCreate{
+  margin: 70px
+}
+
+#passwordCreate{
+  margin: 100px
+}
+
+#userCreateInput{
+  margin: 0px 85px;
+  font-size:20px
+}
+
+#passCreateInput{
+  margin: 0px 0px;
+  font-size:20px
+}
+
+h2{
+  font-size:40px
+}
+
+.cardInput{
+  font-size:20px
+}
+
+#doneMaking{
+  font-size:30px;
+  border-radius: 4px;
+  margin: 20px 0px
+  
+}
+
+#doneMaking:hover{
+  background-color: #FFA07A;
+  color:#1c2841
+}
+
+#cardSubmit{
+  border: none;
+  background-color: #1c2841;
+  color:#FFA07A;
+  font-size:20px
+}
+
+#cardSubmit:hover{
+  background-color: #FFA07A;
+  color:#1c2841;
+  border-radius: 4px
+}
+
+#loginUser{
+  font-size:20px;
+  border-radius: 2px
+}
+
+#loginUser:hover{
+  background-color: #FFA07A;
+  color:#1c2841
+}
+
+#logout{
+  font-size: 20px;
+  color: #7FFF00;
+  border-radius:2px
+}
+
+#logout:hover{
+  background-color: #7FFF00;
+  color:#1c2841
 }
