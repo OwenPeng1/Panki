@@ -8,3 +8,5 @@ When studing cards, you will receive a question. After you are done answering, y
 Use Username: Owen, Password: Peng for preloaded questions
 
 Created using ReactJS and Ruby on Rails
+
+Deployed on Heroku: https://panki2.herokuapp.com/
